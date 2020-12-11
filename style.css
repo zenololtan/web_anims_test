@@ -1,0 +1,92 @@
+body {
+  background-color: #292828;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  z-index: 0;
+}
+
+.settings {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 900px;
+  height: 50px;
+  background-color: #0d0c0c;
+  border-radius: 0px;
+  z-index: 1;
+}
+
+.interface_container {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 700px;
+  height: 400px;
+  background-color: red;
+  overflow: hidden;
+}
+
+.interface_container .key {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: -30px;
+  top: 190px;
+}
+
+.interface_container .key img {
+  width: 100px;
+  height: 100px;
+}
+
+.interface_container .mock div {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.interface_container .one {
+  left: -30px;
+  top: 190px;
+}
+
+.interface_container .two {
+  right: -30px;
+  top: 190px;
+}
+
+.interface_container .three {
+  right: 110px;
+  top: 190px;
+}
+
+.interface_container .four {
+  left: 110px;
+  top: 190px;
+}
+
+.interface_container .five {
+  right: 300px;
+  top: 90px;
+}
+
+.stats {
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 900px;
+  height: 10px;
+  background-color: #0d0c0c;
+  z-index: 1;
+}
+/*# sourceMappingURL=style.css.map */
